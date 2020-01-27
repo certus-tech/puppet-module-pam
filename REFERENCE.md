@@ -432,7 +432,7 @@ Data type: `Boolean`
 
 Boolean to manage the inclusion of the nsswitch class.
 
-Default value: `true`
+Default value: `false`
 
 ##### `common_files`
 

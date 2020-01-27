@@ -234,7 +234,7 @@ class pam (
   Optional[Array] $pam_password_account_lines               = undef,
   Optional[Array] $pam_password_password_lines              = undef,
   Optional[Array] $pam_password_session_lines               = undef,
-  Boolean $manage_nsswitch                                  = true,
+  Boolean $manage_nsswitch                                  = false,
   Array $common_files                                       = [],
   Boolean $common_files_create_links                        = false,
   Optional[String] $common_files_suffix                     = undef,
