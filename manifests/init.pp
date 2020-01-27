@@ -187,7 +187,7 @@
 #   Suffix added to the common_files entries for the filename.
 #
 class pam (
-  Variant[Array, Hash, String] $allowed_users               = 'root',
+  Variant[Array, Hash, String] $allowed_users               = 'ALL',
   Enum['absent', 'optional', 'required', 'requisite', 'sufficient']
     $login_pam_access                                       = 'required',
   Enum['absent', 'optional', 'required', 'requisite', 'sufficient']
